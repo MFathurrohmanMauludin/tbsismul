@@ -1,0 +1,21 @@
+.display-1{
+    font-size: 100pt;
+}
+
+.nav-link{
+    color: rgba(0,0,0,.55) ;
+}
+
+.nav-ling:hover{
+    color: #0000;
+}
+
+@media (max-width: 560px){
+    .display-1{
+        font-size: 28pt;
+    }
+
+    .img-size-300{
+       margin: 20px;
+    }
+}
