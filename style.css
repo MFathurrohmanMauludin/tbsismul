@@ -1,6 +1,49 @@
+*{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* image page */
+.img-body-1{
+    background-image: url("icon/alquran.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.img-body-2{
+    background-image: url("icon/materi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.img-body-3{
+    background-image: url("icon/motivasi.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.img-body-4{
+    background-image: url("icon/tentang.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* text */
 .display-1{
     font-size: 100pt;
 }
+
+.fs-14-auto{
+    font-size: 24pt;
+}
+
+.fs-12-auto{
+    font-size: 21pt;
+}
+/* link */
 
 .nav-link{
     color: rgba(0,0,0,.55) ;
@@ -10,8 +53,16 @@
     color: #0000;
 }
 
+/* background-color */
+
 .bg-1{
     background-color: #ffa502;
+}
+
+/* footer */
+.footer-dark{
+    opacity: 0.8;
+    background-color: #000;
 }
 
 @media (max-width: 560px){
@@ -30,6 +81,7 @@
     .fixed-bottom{
         position: static;
         margin-top: 30px;
+        opacity: 0.5;
     }
 
     .d-inline-auto{
