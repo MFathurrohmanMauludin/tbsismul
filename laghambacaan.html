@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagham Bacaan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+    
+    <!-- header -->
+    <header>
+        <!-- navigasi -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand fw-bold" href="#">QuQu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" href="materi.html">Materi</a>
+                        <a class="nav-link" href="tentang.html">Tentang</a>
+                        <a class="nav-link" href="motivasi.html">Motivasi</a>
+                    </div>
+                </div>
+            </div>  
+        </nav>
+        <!-- /navigasi -->
+    </header>
+    <!-- /header -->
+
+    <!-- content -->
+    <main class="container">
+        <div class="row m-3">
+            <!-- aside -->
+            <div class="col">
+                <div class="list-group">
+                    <div class="list-group-item list-group-item-action text-center text-white bg-primary fw-bold disabled p-3" aria-current="true">
+                      Lagham Bacaan
+                    </div>
+                    <a href="#" class="list-group-item list-group-item-action p-3">Bayati</a>
+                    <a href="#" class="list-group-item list-group-item-action p-3">Shoba</a>
+                    <a href="#" class="list-group-item list-group-item-action border-bottom-0 p-3">Hijaz</a>
+                    <a href="#" class="list-group-item list-group-item-action p-3">Jiharkhah</a>
+                    <a href="#" class="list-group-item list-group-item-action p-3">Nahawand</a>
+                    <a href="#" class="list-group-item list-group-item-action p-3">Shika</a>
+                    <a href="#" class="list-group-item list-group-item-action p-3">Ros</a>
+                </div>
+            </div>
+            <!-- /aside -->
+            
+            <!-- slideshow -->
+            <div class="col-8 mt-auto-20 border-1">
+                <!-- card -->
+                <div class="card d-inline-auto">
+
+                    <!-- cardbody -->
+                    <div class="card-body">
+                        <!-- materi -->
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-interval="false">
+                            <div class="carousel-inner">
+                                
+                              <div class="carousel-item active">
+                                <div class="text-center m-3">
+                                    <h1 class="display-3 fst-normal fw-bold">Bayati</h1>
+                                    <img src="https://dummyimage.com/300x300/000/fff" alt="image" width="200px">
+                                    <h4 class="text-center m-3">Rumus Lagham Bayati</h4>
+                                </div>
+                                <p class="fs-4 fw-bold text-center">Penjelasan Lagham Bayati</p>
+                              </div>
+
+                              <div class="carousel-item">
+                                <div class="text-center m-3">
+                                    <h1 class="display-3 fw-lighter">Shoba</h1>
+                                    <img src="https://dummyimage.com/300x300/000/fff" alt="image" width="200px">
+                                    <h4 class="text-center m-3">Rumus Lagham Shoba</h4>
+                                </div>
+                                <p class="fs-4 fw-bold text-center">Penjelasan Lagham Shoba</p>
+                              </div>
+
+                              <div class="carousel-item">
+                                <div class="text-center m-3">
+                                    <h1 class="display-3 fw-lighter">Hijaz</h1>
+                                    <img src="https://dummyimage.com/300x300/000/fff" alt="image" width="200px">
+                                    <h4 class="text-center m-3">Rumus Lagham Hijaz</h4>
+                                </div>
+                                <p class="fs-4 fw-bold text-center m-3">Penjelasan Lagham Hijaz</p>
+                              </div>
+
+                            </div>
+                        </div>
+                        <!-- materi -->
+                    </div>
+                    <!-- /cardbody -->
+
+                    <!-- cardfooter -->
+                    <div class="card-footer bg-light">
+                        <div class="d-flex justify-content-between">
+                            
+                            <!-- bookmark -->
+                            <div class="flex-row">
+                                <button class="btn" type="menu">
+                                    <i class="fas fa-bookmark fa-2x"></i>
+                                </button>
+                            </div>
+                            <!-- /bookmark -->
+
+                            <!-- play -->
+                            <div class="flex-row btn-group">
+                                <a class="btn" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                                    <i class="fas fa-backward fa-2x"></i>
+                                </a>
+                                <button class="btn" type="menu" id="#">
+                                    <i class="fas fa-play-circle fa-2x"></i>
+                                </button>
+                                <a class="btn" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                                    <i class="fas fa-forward fa-2x"></i>
+                                </a>
+                            </div>
+                            <!-- /play -->
+
+                        </div>
+                    </div>
+                    <!-- /cardfooter -->
+                </div>
+                <!-- card -->
+            </div>
+            <!-- /slideshow -->
+
+        </div>
+    </main>
+    <!-- /content -->
+
+    <!-- Footer -->
+    <footer class="fixed-bottom bg-light">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+        © 2020 Tubes SISMUL
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
