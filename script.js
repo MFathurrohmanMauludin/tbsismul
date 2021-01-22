@@ -11,9 +11,9 @@
 
 // play audio
 
-var x = document.getElementById("myAudio"); 
 
-function playAudio() { 
+function playAudio(id) { 
+  var x = document.getElementById(id); 
   x.play(); 
 } 
 
