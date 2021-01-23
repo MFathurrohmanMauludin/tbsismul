@@ -88,12 +88,26 @@
                               <div class="carousel-item active">
                                 <div class="text-center m-3">
                                     <h1 class="display-3 fw-lighter">Idzhar</h1>
-                                    <img src="icon/huruf_idzhar.PNG" class="figure-img img-fluid rounded" alt="huruf idzhar" width="400">
+                                    <audio id="huruf_idzhar">
+                                        <source src="audio/hukum_bacaan/huruf_idzhar.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <div class="d-flex justify-content-center m-3">
+                                        <button class="btn" onclick="playAudio('huruf_idzhar')" type="button">
+                                            <img src="icon/huruf_idzhar.PNG" class="figure-img img-fluid rounded" alt="huruf idzhar" width="400">
+                                        </button>
+                                    </div>
                                 </div>
                                 <div class="m-2 text-center">
                                     <p class="fs-4">Idzhar artinya jelas. Jelas berarti tanpa ada dengungan sama sekali. Kapan terjadinya Idzhar?, ketika nun mati atau tanwin bertemu dengan huruf yang keluar dari tenggorokan.</p>
                                     <h4 class="fw-bold">Contoh</h4>
-                                    <img src="icon/contoh_idzhar.jpg" class="figure-img img-fluid rounded" alt="Wa jannaatin alfaafaa" width="200">
+                                    <audio id="idzhar">
+                                        <source src="audio/hukum_bacaan/idzhar.mp3" type="audio/mpeg">
+                                    </audio>
+                                    <div class="d-flex justify-content-center m-3">
+                                        <button class="btn" onclick="playAudio('idzhar')" type="button">
+                                            <img src="icon/contoh_idzhar.jpg" class="figure-img img-fluid rounded" alt="Wa jannaatin alfaafaa" width="200">
+                                        </button>
+                                    </div>
                                     <p class="fs-4">Wa Jannaatin Alfaa faa</p>
                                 </div>
                               </div>
@@ -193,7 +207,7 @@
     <!-- /content -->
         
     <!-- Footer -->
-    <footer class="footer-dark">
+    <footer class="fixed-bottom footer-dark">
         <div class="text-center text-white py-3">
             © 2020 Kelompok QuQu Sismul.
         </div>
