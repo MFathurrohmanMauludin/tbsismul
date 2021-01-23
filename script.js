@@ -15,7 +15,12 @@
 function playAudio(id) { 
   var x = document.getElementById(id); 
   x.play(); 
-} 
+}
+
+function pauseAudio(id) {
+  var x = document.getElementById(id);
+  x.pause();
+}
 
 // // end play audio
 
